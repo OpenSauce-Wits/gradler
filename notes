@@ -1,0 +1,22 @@
+results = response.css('div.infoBox div.counter::text').getall()
+percent = response.css('div.percent::text').get()
+results.insert(0,percent)
+[2 = tests, 0 = failures, time]
+status = ["grade","tests","failures","time"]
+
+tests = response.css('div#tab0 tr td::text').getall()
+['changeColor', 'passed (0.959s)', 'colorNotChanged', 'passed (0.277s)']
+
+test_dir = {}
+if len(test_dir) % 2 == 0:
+    for test in range(len(tests)):
+        if test % 2 == 0:
+            test_dir[tests[test]] = tests[test+1]
+else:
+    print("Error")
+
+
+result_status = {}
+for state,result in zip(status,results):
+    result_status[state] = result
+
