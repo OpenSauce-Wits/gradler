@@ -8,12 +8,19 @@ This is where we will store the classes, until we move them to a database
 
 ## Installation
 `sudo apt-get install python3 python3-dev python3-pip libxml2-dev libxslt1-dev zlib1g-dev libffi-dev libssl-dev`
+
 `git clone https://github.com/OpenSauce-Wits/gradler`
+
 `cd gradler`
+
 `git checkout gradler1.0`
+
 `git pull --set-upstream origin gradler1.0`
+
 `sudo apt-get install python3-virtualenv`
+
 `virtualenv -p python3.6 venv`
+
 `source env/bin/activate`
 
 
