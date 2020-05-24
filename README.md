@@ -21,7 +21,7 @@ This is where we will store the classes, until we move them to a database
 
 `virtualenv -p python3.6 venv`
 
-`source env/bin/activate`
+`source venv/bin/activate`
 
 
 
