@@ -52,7 +52,7 @@ This is where we will store the classes, until we move them to a database
 `pip3 install -r requirements.txt`
 
 ### Tests Folder
-The "Tests" contains the html files were generated
+The "Tests" contains the html files were generated. Do not delete it , for now, the bash script uses it check if it can create a status code
 
 ### Running the gradle fetcher
 `scrapy crawl gradle -a abs="/home/molefe/Software/Developer/AttributeChangeProject"`
