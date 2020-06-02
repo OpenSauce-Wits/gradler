@@ -2,8 +2,6 @@
 Android Marking Project
 
 ### Note:
-> Create a directory in your home folder called gradler_tests
-
 > Documentation In Progress
 
 
