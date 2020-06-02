@@ -36,6 +36,8 @@ This is where we will store the classes, until we move them to a database
 
 `source venv/bin/activate`
 
+
+
 ## New Features
 
 > Generalised Crawler
@@ -48,6 +50,9 @@ This is where we will store the classes, until we move them to a database
 
 ## Preparing to run the "marker"
 `pip3 install -r requirements.txt`
+
+### Tests Folder
+The "Tests" contains the html files were generated
 
 ### Running the gradle fetcher
 `scrapy crawl gradle -a abs="/home/molefe/Software/Developer/AttributeChangeProject"`
