@@ -1,10 +1,10 @@
-# Gradler
+# Gradler 1.1
 Android Marking Project
 
 ### Note:
 > Create a directory in your home folder called gradler_tests
 
-> Use Documentation In Progress
+> Documentation In Progress
 
 
 
@@ -63,7 +63,7 @@ Change the contents to point your gradler_tests
 Move back to the gradle directory (the top project folder)
 ### Running the gradle fetcher
 `scrapy crawl gradle -a abs="/home/molefe/Software/Developer/AttributeChangeProject"`
-> Where abs is your project folder
+> Abs is path/to/android/root/folder
 
 
 ## TODO
