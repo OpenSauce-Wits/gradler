@@ -5,9 +5,9 @@ Note:
 > Create a directory in your home folder called gradler_tests
 
 # Requirements
-> php7x
-> Ubuntu
-> python3
++ php7x
++ Ubuntu
++ python3
 
 This is where we will store the classes, until we move them to a database
 ## Installation
