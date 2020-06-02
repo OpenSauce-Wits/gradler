@@ -1,8 +1,12 @@
 # Gradler
 Android Marking Project
 
-Note:
+### Note:
 > Create a directory in your home folder called gradler_tests
+
+> Use Documentation In Progress
+
+
 
 # How It Works
 The system uses a crawler to fetch and organize html files and save them inside a json file.
@@ -38,6 +42,10 @@ This is where we will store the classes, until we move them to a database
 
 > Generalised Crawler
 
+> Bash Script To Run Crawler
+
+> phpFunction To Return JSON Objects
+
 
 
 ## Preparing to run the "marker"
@@ -58,7 +66,13 @@ Move back to the gradle directory (the top project folder)
 > Where abs is your project folder
 
 
-
+## TODO
+1. Archictectural Description
+2. Class Diagram
+ + UML Diagram
+3. Crawler Testing 
+4. phpFile Testing
+5. Migration To Online Server
 
 
 
