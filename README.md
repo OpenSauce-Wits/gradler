@@ -51,16 +51,6 @@ This is where we will store the classes, until we move them to a database
 ## Preparing to run the "marker"
 `pip3 install -r requirements.txt`
 
-
-> Move to gradler/gradle/spiders/gradle.py
-
-> modiy the script
->`start_urls = []`
-
-Change the contents to point your gradler_tests
-
-
-Move back to the gradle directory (the top project folder)
 ### Running the gradle fetcher
 `scrapy crawl gradle -a abs="/home/molefe/Software/Developer/AttributeChangeProject"`
 > Abs is path/to/android/root/folder
