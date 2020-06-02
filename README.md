@@ -58,6 +58,8 @@ The "Tests" contains the html files were generated
 `scrapy crawl gradle -a abs="/home/molefe/Software/Developer/AttributeChangeProject"`
 > Abs is path/to/android/root/folder
 
+### Bugs
+The "Tests" folder is not being used but is used to generate the status code.
 
 ## TODO
 1. Archictectural Description
