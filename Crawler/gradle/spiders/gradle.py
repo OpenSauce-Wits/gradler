@@ -46,19 +46,6 @@ class GradleSpider(scrapy.Spider):
         test_dir = {}
         test_status = {}
         test_type = {}
-        # Fixing Clasification
-        # if len(tests) % 2 == 0:
-        #     # Instrumented Test
-        #     for test in range(len(tests)):
-        #         if test % 2 == 0:
-        #             test_dir[tests[test]] = tests[test + 1]
-        #     test_type["instrumentation"] = test_dir
-        # else:
-        #     # Unit Test
-        #     for test in range(len(tests)):
-        #         if test % 2 == 0 and test != len(tests) - 1:
-        #             test_dir[tests[test]] = tests[test + 2]
-        #     test_type["unit"] = test_dir
         type = self.select_type(title)
         if type == self.example_unit_test:
             test_dir,test_status = self.fetch_unit_test(response)[0],self.fetch_unit_test(response)[1]
@@ -66,8 +53,6 @@ class GradleSpider(scrapy.Spider):
         elif type == self.example_instrument_test:
             test_dir,test_status = self.fetch_instrumented_test(response)[0],self.fetch_instrumented_test(response)[1]
             test_type["instrument"] = test_dir
-        # test_type["status"] = self.fetch_status(results,status)
-        # test_type[type] = test_dir
         test_type['status'] = test_status
         return test_type
 
