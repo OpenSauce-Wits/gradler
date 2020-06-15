@@ -1,4 +1,4 @@
-# Gradler 1.1
+# Gradler 1.12
 Android Marking Project
 
 ### Note:
@@ -46,6 +46,7 @@ This is where we will store the classes, until we move them to a database
 
 > phpFunction To Return JSON Objects
 
+> Insert Grade Into Database
 
 
 ## Preparing to run the "marker"
